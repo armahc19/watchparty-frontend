@@ -1,0 +1,6 @@
+<!-- Save as public/favicon.svg -->
+<svg width="128" height="128" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="none">
+  <rect x="2" y="4" width="20" height="16" rx="2" stroke="#a78bfa" stroke-width="2"/>
+  <path d="M2 8h20M2 12h20M2 16h20" stroke="#a78bfa" stroke-width="2"/>
+  <path d="M8 9l6 3-6 3z" fill="#a78bfa"/>
+</svg>
