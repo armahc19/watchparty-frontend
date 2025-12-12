@@ -97,7 +97,7 @@ export const useWebSocket = (roomId: string): WebSocketHook => {
       safeClose();
 
       // WebSocket connection with JWT in query parameter
-      const wsUrl = `ws://localhost:8081/api/ws/${roomId}?token=${token}`;
+      const wsUrl = `ws://https://watchparty-backend-nnww.onrender.com/api/ws/${roomId}?token=${token}`;
       console.log('Connecting to WebSocket:', wsUrl);
       
       ws.current = new WebSocket(wsUrl);

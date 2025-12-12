@@ -45,7 +45,7 @@ const Host = () => {
       }
 
       // Call your Go backend
-      const response = await fetch('http://localhost:8081/api/party/create', {
+      const response = await fetch('https://watchparty-backend-nnww.onrender.com/api/party/create', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -249,7 +249,7 @@ useEffect(() => {
       if (session && roomId) {
         console.log('🔍 Calling Go backend for party:', roomId);
         
-        const response = await fetch(`http://localhost:8081/api/party/${roomId}`, {
+        const response = await fetch(`https://watchparty-backend-nnww.onrender.com/api/party/${roomId}`, {
           headers: {
             'Authorization': `Bearer ${session.access_token}`,
           },

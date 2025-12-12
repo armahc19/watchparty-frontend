@@ -180,7 +180,7 @@ export default function AdminPanel() {
       alert("Error: " + insertError.message);
     } else {
       fetchData(); // refresh list
-      const link = `https://watchparty.com/join/${code}`;
+      const link = `https://watchparty-app-five.vercel.app/join/${code}`;
       navigator.clipboard.writeText(`VIP Room Ready!\nHost: ${hostInput}\nCode: ${code}\nLink: ${link}\nExpires: ${expiresInMinutes ? expiresInMinutes + ' min' : 'Never'}`);
       alert(`VIP ROOM CREATED!\nCode: ${code}\nCopied to clipboard!`);
     }

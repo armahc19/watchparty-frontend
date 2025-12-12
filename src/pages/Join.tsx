@@ -53,7 +53,7 @@ const Join = () => {
       }
   
       // Call Go backend to join party
-      const response = await fetch('http://localhost:8081/api/party/join', {
+      const response = await fetch('https://watchparty-backend-nnww.onrender.com/api/party/join', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
