@@ -16,9 +16,6 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  plugins: [
-    react()
-  ],
   base: '/',           // ← THIS FIXES BLANK PAGE ON VERCEL
   build: {
     outDir: 'dist'
